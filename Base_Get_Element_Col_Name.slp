@@ -1,8 +1,6 @@
 {
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
-    "dest_path": "/PowerPlanQA/Base_Pipelines/COMBO_IN/Base_Get_Element_Col_Name",
-    "job_name": "Base_Get_Element_Col_Name",
     "link_map": {
         "link109": {
             "dst_id": "11111111-1111-1111-1111-000000000007",
@@ -1412,6 +1410,5 @@
                 "view_serial": 100
             }
         }
-    },
-    "target_runtime": "standard"
+    }
 }

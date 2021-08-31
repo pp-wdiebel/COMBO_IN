@@ -1,8 +1,6 @@
 {
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
-    "dest_path": "/PowerPlanQA/Base_Pipelines/COMBO_IN/Base_Log_Error_Oracle",
-    "job_name": "Base_Log_Error_Oracle",
     "link_map": {
         "link388": {
             "dst_id": "11111111-1111-1111-1111-000000000005",
@@ -755,6 +753,5 @@
                 "view_serial": 101
             }
         }
-    },
-    "target_runtime": "standard"
+    }
 }

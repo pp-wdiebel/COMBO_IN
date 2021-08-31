@@ -1,0 +1,29 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "Master_Combo_Validation_JSON",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "llfeed_token": "yujLMEyf1ljgON8og8pT7aip7XIlLJVY",
+        "pipeline_parameters": {
+            "OracleSchemaName": "PWRPLANT",
+            "client": "Internal",
+            "createElements": null,
+            "db": "PP_Oracle",
+            "env": "Regression",
+            "fileDelimiter": null,
+            "fullRefresh": null,
+            "pipelineName": "Base_Combo_Val_Process_Data",
+            "processName": "GL Combo Validation Data (Inbound)",
+            "sentry_flag": "True",
+            "snaplex": "Global_Plex"
+        },
+        "pipeline_path": "Base_Import_Combo_JSON",
+        "snaplex_path": "Global_Plex"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

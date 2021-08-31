@@ -1,11 +1,9 @@
 {
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
-    "dest_path": "/PowerPlanQA/Base_Pipelines/COMBO_IN/BASE_End_Process",
-    "job_name": "BASE_End_Process",
     "link_map": {
         "link382": {
-            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_id": "11111111-1111-1111-1111-000000000001",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000004",
             "src_view_id": "output1"
@@ -23,7 +21,7 @@
             "src_view_id": "output1"
         },
         "link387": {
-            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_id": "11111111-1111-1111-1111-000000000002",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000004",
             "src_view_id": "output0"
@@ -213,7 +211,7 @@
             "11111111-1111-1111-1111-000000000001": {
                 "error": {},
                 "grid_x_int": 5,
-                "grid_y_int": 1,
+                "grid_y_int": 2,
                 "input": {},
                 "output": {},
                 "rot_int": 270,
@@ -222,7 +220,7 @@
             "11111111-1111-1111-1111-000000000002": {
                 "error": {},
                 "grid_x_int": 5,
-                "grid_y_int": 2,
+                "grid_y_int": 1,
                 "input": {},
                 "output": {},
                 "rot_int": 270,
@@ -619,6 +617,5 @@
                 "view_serial": 101
             }
         }
-    },
-    "target_runtime": "standard"
+    }
 }

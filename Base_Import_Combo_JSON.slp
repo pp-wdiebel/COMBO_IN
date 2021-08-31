@@ -1,8 +1,6 @@
 {
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
-    "dest_path": "/PowerPlanQA/Base_Pipelines/COMBO_IN/Base_Import_Combo_JSON",
-    "job_name": "Base_Import_Combo_JSON",
     "link_map": {
         "link333": {
             "dst_id": "11111111-1111-1111-1111-000000000019",
@@ -119,7 +117,7 @@
             "src_view_id": "output0"
         },
         "link387": {
-            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_id": "11111111-1111-1111-1111-000000000000",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-00000000000a",
             "src_view_id": "output0"
@@ -137,7 +135,7 @@
             "src_view_id": "output0"
         },
         "link408": {
-            "dst_id": "11111111-1111-1111-1111-000000000000",
+            "dst_id": "11111111-1111-1111-1111-000000000001",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-00000000001b",
             "src_view_id": "output1"
@@ -241,7 +239,7 @@
         },
         "info": {
             "author": {
-                "value": ""
+                "value": "willis.diebel@powerplan.com"
             },
             "label": {},
             "notes": {
@@ -444,7 +442,7 @@
                             "value": false
                         },
                         "value": {
-                            "value": "Regression"
+                            "value": "Internal"
                         }
                     },
                     {
@@ -484,7 +482,7 @@
                             "value": false
                         },
                         "value": {
-                            "value": "AUTO03"
+                            "value": "Regression"
                         }
                     },
                     {
@@ -516,8 +514,8 @@
         "detail_map": {
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
-                "grid_x_int": 22,
-                "grid_y_int": 2,
+                "grid_x_int": 24,
+                "grid_y_int": 1,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -528,8 +526,8 @@
             },
             "11111111-1111-1111-1111-000000000001": {
                 "error": {},
-                "grid_x_int": 24,
-                "grid_y_int": 1,
+                "grid_x_int": 22,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -4049,6 +4047,5 @@
                 "view_serial": 101
             }
         }
-    },
-    "target_runtime": "standard"
+    }
 }
